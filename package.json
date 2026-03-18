@@ -1,0 +1,13 @@
+{
+  "name": "wyforeveryone",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static site for Wyoming for Everyone",
+  "scripts": {
+    "dev": "wrangler pages dev . --port 8788",
+    "deploy": "wrangler pages deploy . --project-name=wyforeveryone"
+  },
+  "devDependencies": {
+    "wrangler": "^4.75.0"
+  }
+}
